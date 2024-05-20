@@ -1,0 +1,15 @@
+.default-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(243, 243, 249, 1);
+
+    .ant-layout-content {
+        flex: 1;
+        overflow-y: auto;
+
+        &>div:first-child {
+            min-height: 100%;
+        }
+    }
+}
